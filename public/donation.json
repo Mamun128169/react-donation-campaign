@@ -1,0 +1,134 @@
+[
+    {
+        "id": 1,
+        "cover": "https://i.postimg.cc/wjY4YvHh/Health.png",
+        "title": "Clean Water Initiative",
+        "category": "Water",
+        "category_bg": "#3498db",
+        "card_bg": "#e5f2ff",
+        "text_color": "#2c3e50",
+        "description": "Provide clean and safe drinking water to communities in need.",
+        "price": 225
+    },
+    {
+        "id": 2,
+        "cover": "https://i.postimg.cc/SRJLGQVc/Rectangle-4288.png",
+        "title": "Education for All",
+        "category": "Education",
+        "category_bg": "#e74c3c",
+        "card_bg": "#ffd9d9",
+        "text_color": "#2c3e50",
+        "description": "Support education programs to ensure every child has access to quality education.",
+        "price": 250
+    },
+    {
+        "id": 3,
+        "cover": "https://i.postimg.cc/L4t7k366/Clothing.png",
+        "title": "Food Relief Fund",
+        "category": "Food",
+        "category_bg": "#27ae60",
+        "card_bg": "#e6ffe6",
+        "text_color": "#2c3e50",
+        "description": "Provide food supplies to families facing hunger and food insecurity.",
+        "price": 230
+    },
+    {
+        "id": 4,
+        "cover": "https://i.postimg.cc/Bv8R6FrG/Food.png",
+        "title": "Shelter Support",
+        "category": "Shelter",
+        "category_bg": "#f39c12",
+        "card_bg": "#fff2cc",
+        "text_color": "#2c3e50",
+        "description": "Help build shelters and provide housing assistance for the homeless.",
+        "price": 240
+    },
+    {
+        "id": 5,
+        "cover": "https://i.postimg.cc/wjY4YvHh/Health.png",
+        "title": "Healthcare Access Initiative",
+        "category": "Health",
+        "category_bg": "#9b59b6",
+        "card_bg": "#f2e6ff",
+        "text_color": "#2c3e50",
+        "description": "Ensure access to healthcare services for underserved communities.",
+        "price": 235
+    },
+    {
+        "id": 6,
+        "cover": "https://i.postimg.cc/SRJLGQVc/Rectangle-4288.png",
+        "title": "Environmental Conservation",
+        "category": "Environment",
+        "category_bg": "#1abc9c",
+        "card_bg": "#e0f2f1",
+        "text_color": "#2c3e50",
+        "description": "Support initiatives aimed at preserving and protecting the environment.",
+        "price": 245
+    },
+    {
+        "id": 7,
+        "cover": "https://i.postimg.cc/L4t7k366/Clothing.png",
+        "title": "Animal Welfare Fund",
+        "category": "Animals",
+        "category_bg": "#e67e22",
+        "card_bg": "#ffe6cc",
+        "text_color": "#2c3e50",
+        "description": "Provide care and protection for animals in need.",
+        "price": 230
+    },
+    {
+        "id": 8,
+        "cover": "https://i.postimg.cc/Bv8R6FrG/Food.png",
+        "title": "Community Development",
+        "category": "Community",
+        "category_bg": "#2ecc71",
+        "card_bg": "#e6ffe6",
+        "text_color": "#2c3e50",
+        "description": "Support projects that empower and uplift local communities.",
+        "price": 155
+    },
+    {
+        "id": 9,
+        "cover": "https://i.postimg.cc/wjY4YvHh/Health.png",
+        "title": "Disaster Relief Efforts",
+        "category": "Disaster",
+        "category_bg": "#e74c3c",
+        "card_bg": "#ffe6e6",
+        "text_color": "#2c3e50",
+        "description": "Provide immediate assistance to those affected by natural disasters.",
+        "price": 240
+    },
+    {
+        "id": 10,
+        "cover": "https://i.postimg.cc/SRJLGQVc/Rectangle-4288.png",
+        "title": "Empowering Women Initiative",
+        "category": "Women",
+        "category_bg": "#9b59b6",
+        "card_bg": "#f2e6ff",
+        "text_color": "#2c3e50",
+        "description": "Support programs that promote gender equality and empower women.",
+        "price": 160
+    },
+    {
+        "id": 11,
+        "cover": "https://i.postimg.cc/L4t7k366/Clothing.png",
+        "title": "Art & Culture Preservation",
+        "category": "Art",
+        "category_bg": "#3498db",
+        "card_bg": "#e5f2ff",
+        "text_color": "#2c3e50",
+        "description": "Preserve and promote cultural heritage through art and cultural initiatives.",
+        "price": 235
+    },
+    {
+        "id": 12,
+        "cover": "https://i.postimg.cc/Bv8R6FrG/Food.png",
+        "title": "Youth Empowerment Program",
+        "category": "Youth",
+        "category_bg": "#f39c12",
+        "card_bg": "#fff2cc",
+        "text_color": "#2c3e50",
+        "description": "Empower young people with education, skills training, and mentorship.",
+        "price": 250
+    }
+]
