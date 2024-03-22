@@ -1,13 +1,21 @@
 import PropTypes from 'prop-types'
+import { useNavigate } from 'react-router-dom';
 
 const Category = ({ categoryObj }) => {
+  const { id, cover, category, category_bg, title, text_color } = categoryObj;
 
-  const { card_bg, cover, category, category_bg, title, text_color } = categoryObj;
+  // Navigates to selected category pages
+  const navigate = useNavigate();
 
-  console.log(card_bg, category_bg, text_color);
+  const handleCardClick = () => {
+    navigate(`/category/${id}`);
+  }
 
   return (
-    <div className="card card-compact bg-base-100 shadow-xl" style={{backgroundColor: category_bg}}>
+    <div
+    onClick={handleCardClick} 
+    className="card card-compact shadow-xl cursor-pointer" 
+    style={{backgroundColor: category_bg}}>
       <figure>
         <img
           src= {cover}

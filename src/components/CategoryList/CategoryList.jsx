@@ -16,11 +16,8 @@ const CategoryList = () => {
         fetchData();
     }, []);
 
-    console.log(categories);
-
     return (
-        <div className="container mx-auto mt-8 my-12 px-4">
-            <h2>Category Lists: {categories.length} </h2>
+        <div className="container mx-auto mt-8 my-16 px-4">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 px-8 md:px-2 ">
                 {categories.map(category => <Category 
                 key={category.id}

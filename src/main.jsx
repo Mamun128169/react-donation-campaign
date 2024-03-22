@@ -11,6 +11,7 @@ import Home from './components/Home/Home';
 import ErrorPage from './components/ErrorPage/ErrorPage';
 import Donation from './components/Donation/Donation';
 import Statistics from './components/Statistics/Statistics';
+import SingleCategory from './components/SingleCategory/SingleCategory';
 
 const router = createBrowserRouter([
   {
@@ -29,6 +30,12 @@ const router = createBrowserRouter([
       {
         path: "/statistics",
         element: <Statistics></Statistics>
+      },
+      // dynamic routing
+      {
+        path: "/category/:id",
+        loader: () => fetch("./../public/donation.json"),
+        element: <SingleCategory></SingleCategory>
       }
     ]
   }
