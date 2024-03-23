@@ -33,7 +33,7 @@ const Donation = () => {
             </div>
             <div className={`flex justify-center mt-8 ${dataLength === donatedCarts.length && "hidden"}`}>
                 <button 
-                 onClick={() => setDataLength(dataLength + 4)}
+                 onClick={() => setDataLength(donatedCarts.length)}
                  className="btn btn-success px-4 text-white">Show More</button>
             </div>
         </div>
