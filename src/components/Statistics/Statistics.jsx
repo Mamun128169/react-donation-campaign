@@ -24,9 +24,7 @@ const Statistics = () => {
 
     // Calculate the percentage
     const donatedPercentage = parseFloat(totalAmount !== 0 ? ((donatedAmount / totalAmount) * 100).toFixed(2) : 0);
-    const totalPercentage = parseFloat(100 - donatedPercentage);
-
-    console.log(donatedPercentage, totalPercentage);
+    const totalPercentage = parseFloat((100 - donatedPercentage).toFixed(2));
 
     // Get stored IDs from local Storage
     useEffect(() => {

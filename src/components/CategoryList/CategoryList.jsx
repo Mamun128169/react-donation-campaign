@@ -10,7 +10,7 @@ const CategoryList = ({textValue}) => {
     // load category data
     useEffect(() => {
         const fetchData = async () => {
-            const res = await axios.get("../../../public/donation.json");
+            const res = await axios.get("/donation.json");
             const data = res.data;
             setCategories(data);
             setDisplayCategories(data);
