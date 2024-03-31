@@ -30,6 +30,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/statistics",
+        loader: () => fetch("./../public/donation.json"),
         element: <Statistics></Statistics>
       },
       // dynamic routing

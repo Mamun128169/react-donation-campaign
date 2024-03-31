@@ -17,7 +17,7 @@ const Navbar = () => {
         </NavLink>
       </div>
       <div className="flex-none">
-        <ul className="text-lg font-medium menu menu-horizontal px-1 flex gap-4 md:gap-10">
+        <ul className="text-lg font-medium menu menu-horizontal px-1 flex gap-3 md:gap-10">
          {links}
         </ul>
       </div>
